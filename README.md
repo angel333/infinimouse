@@ -1,5 +1,7 @@
 # Infimouse
 
+**[[Download exe here]](https://github.com/angel333/infimouse/blob/master/infimouse.exe)**
+
 If you move mouse to one border, it'll come from the other.
 
 Works for multiple screens too, but will have issues if the screen
