@@ -1,6 +1,6 @@
 # Infimouse
 
-**[[Download exe here]](https://github.com/angel333/infimouse/blob/master/infimouse.exe)**
+**[[Download exe here]](https://github.com/angel333/infimouse/blob/master/infimouse.exe?raw=true)**
 
 If you move mouse to one border, it'll come from the other.
 
