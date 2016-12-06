@@ -1,5 +1,5 @@
 ;
-; Infimouse.au3
+; InfiniMouse
 ;   an AutoIt script
 ;
 ; Author:  Ondrej Simek
