@@ -121,19 +121,19 @@ While 1
    $Pos = MouseGetPos ()
 
    If $EnableLeftBorder And $Pos[0] = $X_MIN Then
-	  MouseMove($X_MAX - 1, $Pos[1], 0)
+	  DllCall("user32.dll", "bool", "SetCursorPos", "int", $X_MAX - 1, "int", $Y)
    EndIf
 
    If $EnableRightBorder And $Pos[0] = $X_MAX Then
-	  MouseMove($X_MIN + 1, $Pos[1], 0)
+	  DllCall("user32.dll", "bool", "SetCursorPos", "int", $X_MIN + 1, "int", $Y)
    EndIf
 
    If $EnableTopBorder And $Pos[1] = $Y_MIN Then
-	  MouseMove($Pos[0], $Y_MAX - 1, 0)
+	  DllCall("user32.dll", "bool", "SetCursorPos", "int", $X, "int", $Y_MAX - 1)
    EndIf
 
    If $EnableBottomBorder And $Pos[1] = $Y_MAX Then
-	  MouseMove($Pos[0], $Y_MIN + 1, 0)
+	  DllCall("user32.dll", "bool", "SetCursorPos", "int", $X, "int", $Y + 1)
    EndIf
 
    Sleep($Delay)
